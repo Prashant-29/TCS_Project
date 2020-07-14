@@ -7,7 +7,7 @@ pipeline {
    stages {
        stage('SCM CheckOut'){
           steps {
-            git 'https://github.com/debashis-1306/TestApp'
+            git 'https://github.com/Prashant-29/TCS_Project'
           }
           }
       stage('Compile-Package'){
